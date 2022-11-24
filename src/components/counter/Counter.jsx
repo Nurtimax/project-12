@@ -1,5 +1,5 @@
 import React from "react";
-import useCounter from "../../utils/hook/useCounter";
+import useCounter from "../../hooks/useFetch";
 import "./Counter.css";
 
 const Counter = () => {
@@ -14,4 +14,5 @@ const Counter = () => {
 };
 
 export default Counter;
+
 
