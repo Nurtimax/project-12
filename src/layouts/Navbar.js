@@ -18,9 +18,9 @@ import MoreIcon from "@mui/icons-material/MoreVert";
 import ColorTabs from "../components/Tabs";
 import HomeIcon from "@mui/icons-material/Home";
 import { Tab } from "@mui/material";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import InfoIcon from '@mui/icons-material/Info';
-import ContactsIcon from '@mui/icons-material/Contacts';
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import InfoIcon from "@mui/icons-material/Info";
+import ContactsIcon from "@mui/icons-material/Contacts";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -169,13 +169,13 @@ export default function PrimarySearchAppBar() {
           aria-haspopup="true"
           color="inherit"
         >
-          <ShoppingCartIcon/>
+          <ShoppingCartIcon />
         </IconButton>
-    <p>Cart</p>
+        <p>Cart</p>
       </MenuItem>
       <MenuItem>
         <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-          <Badge badgeContent={45} color="error">
+          <Badge color="secondary" badgeContent={100}>
             <MailIcon />
           </Badge>
         </IconButton>
@@ -187,7 +187,7 @@ export default function PrimarySearchAppBar() {
           aria-label="show 17 new notifications"
           color="inherit"
         >
-          <Badge badgeContent={17} color="error">
+          <Badge color="secondary" badgeContent={10}>
             <NotificationsIcon />
           </Badge>
         </IconButton>
@@ -245,7 +245,7 @@ export default function PrimarySearchAppBar() {
               aria-label="show 4 new mails"
               color="inherit"
             >
-              <Badge badgeContent={4} color="error">
+              <Badge color="secondary" badgeContent={100}>
                 <MailIcon />
               </Badge>
             </IconButton>
@@ -254,7 +254,7 @@ export default function PrimarySearchAppBar() {
               aria-label="show 17 new notifications"
               color="inherit"
             >
-              <Badge badgeContent={17} color="error">
+              <Badge color="secondary" badgeContent={10}>
                 <NotificationsIcon />
               </Badge>
             </IconButton>
